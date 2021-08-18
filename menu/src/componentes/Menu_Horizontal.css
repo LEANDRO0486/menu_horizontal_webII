@@ -1,5 +1,5 @@
 .navMenu {
-    background-color: gray;
+    background-color: #6d6d6d;
     height: 5vh;
 
 } 
@@ -15,7 +15,6 @@
 
 }
 .navMenu ul li a:hover {
-    color: #6d6d6d;
     font-weight: bold;
     font-size: 18px;
     color: red;
