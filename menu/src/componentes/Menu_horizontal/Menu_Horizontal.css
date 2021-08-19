@@ -1,0 +1,69 @@
+.menu {
+    height: 40px;
+    border: 1px solid rgb(214, 46, 16);
+    background-color: beige;
+    padding-bottom: 0px;
+    font-size: 16px;
+} 
+.navMenu::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.navMenu ul {
+    list-style: none;
+    text-align: left;
+    display: flex;
+
+}
+.navMenu ul li a {
+    padding-left: 2vw;
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+}
+.navMenu ul li a:hover {
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+}
+
+/*
+ final configurações do menu principal
+*/
+
+/*
+ configurações das seções - ancora
+*/
+
+#inicio, #cursos, #contatos, #parceiros, #missao, #sobre {
+    border: 1px solid black;
+    text-align: center;
+}
+
+#inicio {
+    height: 45vh;
+    background-color: greenyellow;
+
+}
+#cursos {
+    height: 40vh;
+    background-color: hotpink;
+}
+#contatos {
+    height: 50vh;
+    background-color: orange;
+}
+#parceiros {
+    height: 40vh;
+    background-color: thistle;
+}
+#missao {
+    height: 45vh;
+    background-color: teal;
+
+}
+#sobre {
+    height: 10vh;
+    background-color: seashell;
+}

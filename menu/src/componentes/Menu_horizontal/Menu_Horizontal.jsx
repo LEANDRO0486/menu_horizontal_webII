@@ -39,6 +39,10 @@ export default function Menu() {
                     <h1>Sobre</h1>
                 </section>
 
+                <footer>
+                   <h2>Roda pé</h2>
+                </footer>
+
             </div>
         </div>
     )
